@@ -25,9 +25,9 @@ function draw()
 } else if (mouseX < 500){
   ellipse(450, 300, 300, 300);
 } else if( mouseX < 600){
-  ellipse(550, 300, 350, 350);
+  rect(550, 210, 200, 200);
 } else {
-  ellipse(650, 300, 400, 400);
+  rect(650, 250, 100, 100);
 }
 
 }
